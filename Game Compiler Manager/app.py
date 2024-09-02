@@ -45,8 +45,6 @@ class GameCompilerManager:
         for game_name in self.config['games']:
             print(f" - {game_name}")
 
-# Example Configuration
-# Save this JSON as `config.json` in the same directory as the script
 """
 {
     "games": {
