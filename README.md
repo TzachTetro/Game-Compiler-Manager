@@ -33,12 +33,3 @@ The purpose of the GameCompilerManager project is to streamline the management, 
    - compile_game_code(path): Compiles game code files within the specified directory.
    - run_command(command, path): Executes a command in the given path and prints the result.
   
-
-<h2>Program walk-through:</h2>
-
-<p align="center"> <br/>
-<img src="https://imgur.com/eoZ0t2x.png">
-<img src="https://imgur.com/uqcvgPJ.png">
-<img src="https://imgur.com/lsANops.png">
-<img src="https://imgur.com/bIBuSBv.png">
-<img src="https://imgur.com/TVbtgJI.png">
