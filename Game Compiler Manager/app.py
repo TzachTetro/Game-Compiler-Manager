@@ -45,25 +45,9 @@ class GameCompilerManager:
         for game_name in self.config['games']:
             print(f" - {game_name}")
 
-"""
-{
-    "games": {
-        "MyAwesomeGame": {
-            "source_dir": "path/to/source",
-            "build_command": "make",  # or "msbuild", "xcodebuild", etc.
-            "output_dir": "path/to/output"
-        },
-        "AnotherGame": {
-            "source_dir": "another/path/to/source",
-            "build_command": "gcc main.c -o game",
-            "output_dir": "another/path/to/output"
-        }
-    }
-}
-"""
 
-def main():
-    manager = GameCompilerManager()
+    def main():
+        manager = GameCompilerManager()
     
     while True:
         print("\n===== Game Compiler Manager =====")
@@ -83,5 +67,5 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
-if __name__ == "__main__":
-    main()
+        if __name__ == "__main__":
+            main()
